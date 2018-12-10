@@ -6,10 +6,10 @@ namespace CompitoMatteini
     {
         static void Main(string[] args)
         {
-            //Ciclo visualizzazione dei numeri --> 0 a 9
-            for (int j = 0; j < 10; j++)
+            //Ciclo per visualizzare numeri da 0 a 9
+            for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("Var contatore I >> " + j);
+                Console.WriteLine("Var contatore I >> " + i);
             }
         }
     }
